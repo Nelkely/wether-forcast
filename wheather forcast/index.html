@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: grid;
+            background-image: url(ai-generated-blue-sky-with-bright-sun-as-abstract-panoramic-background-ai-generated-image-photo.jpg);
+            background-size: contain;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            height: 100vh;
+
+        }
+        .days{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-evenly;
+            grid-column: span 2;
+            text-align: center;
+        }
+        .time{
+            align-content: center;
+            justify-items: center;
+        }
+        .temperature{
+            align-content: center;
+            justify-items: center;
+        }
+        .day{
+            background-color: blue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: bolder;
+            font-style: italic;
+        }
+    </style>
+    <title>WEATHER FORCAST</title>
+</head>
+<body>
+    <div class="time">
+        <p>city<br> MAY 5<br></p>
+        <h2>12:37</h2>
+        <p>CLOUDY</p>
+    </div>
+    <div class="temperature">
+        <ul>
+            <li>PRESSURE: 1021hPA</li>
+            <li>SUNNRISE: 6:38</li>
+            <li>SUNSET: 18:03</li>
+        </ul>
+        <h2>+20<sup>o</sup>C</h2>
+    </div>
+    <div class="days">
+        <div class="day">
+            <p>SUN</p>
+            <h3>20<sup>o</sup>C<br>40<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>MON</p>
+            <h3>17<sup>o</sup>C<br>8<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>TUE</p>
+            <h3>18<sup>o</sup>C<br>7<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>WED</p>
+            <h3>16<sup>o</sup>C<br>6<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>THU</p>
+            <h3>18<sup>o</sup>C<br>9<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>FRI</p>
+            <h3>19<sup>o</sup>C<br>10<sup>o</sup>C</h3>
+        </div>
+        <div class="day">
+            <p>SAT</p>
+            <h3>17<sup>o</sup>C<br>5<sup>o</sup>C</h3>
+        </div>
+    </div>
+</body>
+</html>
